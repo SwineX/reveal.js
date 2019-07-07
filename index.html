@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -25,8 +25,77 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<!--封面-->
+				<section>
+					<section>
+						<div style="height: 100%">
+							<img style="width: 100%" data-src="pic/1.jpg">
+						</div>
+						<div data-markdown style="padding-top:30px">
+							<textarea data-template>
+								## 梁春芳 && 许诗豪
+								他们俩要结婚了，结婚诶，3年前你要是这么说肯定会被小梁女士翻白眼
+							</textarea>
+						</div>
+					</section>
+					<section>
+						<div style="height: 1920px">
+							<img class="abs-block" style="width: 100%; height:100%; left:-50%" data-src="pic/2.jpg"/>
+							<div class="abs-block" style="right:0; text-align: left; width:50%;" data-markdown>
+									## 女主角
+									
+									 我是梁春芳
+									 
+									 关于这个叫许诗豪的人
+									 
+									 最开始只觉得他是一个
+									 
+									 想勾搭自己的猥琐学长
+									 
+									 并不在意
+									 
+									 一晃两年
+									 
+									 突然觉得
+									 
+									 这个学长
+									 
+									 似乎看起来也没那么猥琐了	
+							</div>
+						</div>
+					</section>
+					<section>
+						<div style="height: 1920px">
+							<div class="abs-block" style="width: 100%; height:100%; left:50%">
+								<img  data-src="pic/3.jpg"/>
+							</div>
+							
+							<div class="abs-block" style="left:0; text-align: left; width:50%;" data-markdown>
+									## 男跟班 
+									
+									 我是许诗豪
+									 
+									 第一次见到梁春芳
+									 
+									 不过是觉得师妹嘛
+									 
+									 作为学长应该主动勾搭
+									 
+									 可似乎被嫌弃了
+									 
+									 没关系
+									 
+									 因为过不了两年
+									 
+									 这个学长
+									 
+									 就会让这位小师妹刮目相看	
+							</div>
+						</div>
+					</section>
+				</section>
+				
+
 			</div>
 		</div>
 
@@ -42,7 +111,13 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
+				],
+				controlsLayout: 'edges',
+				width: 1080,
+				height: 1920,
+				transition: "slide",
+				backgroundTransition: "slide",
+				center: false
 			});
 		</script>
 	</body>
